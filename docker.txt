@@ -1,0 +1,7 @@
+# Build the Docker image and tag it as flask-app
+docker build -t flask-app .
+
+# Run the container, mapping host port 8080 to container port 80
+docker run -p 8080:80 flask-app
+
+#- localhost:8080
